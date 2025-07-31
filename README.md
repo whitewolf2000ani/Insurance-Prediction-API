@@ -25,7 +25,7 @@ A production-grade API for **predicting the premium category of a patient** base
 - **Language:** Python 3.x  
 - **Framework:** FastAPI
 - **ML Libraries:** scikit-learn, pandas, numpy  
-- **Model:** *[List the algorithms you used, e.g., Random Forest, Linear Regression, etc.]*  
+- **Model:** Random Forest Classifier
 - **Deployment:** Pending will be using Docker 
 
 ---
@@ -67,8 +67,8 @@ uvicorn app:app --reload
 | `/health`  | GET    | Health status of the API           |
 
 ### Example request:
-```json
 POST /predict
+```json
 {
 "age": 35,
 "weight":75,
