@@ -26,7 +26,7 @@ A production-grade API for **predicting the premium category of a patient** base
 - **Framework:** FastAPI
 - **ML Libraries:** scikit-learn, pandas, numpy  
 - **Model:** Random Forest Classifier
-- **Deployment:** Pending will be using Docker 
+- **Deployment:** Pending -> will be using Docker 
 
 ---
 
